@@ -55,6 +55,8 @@ Property |Type|Default|Description
 min|number|1|Set slider minimum value
 max|number|100|Set slider maximum value
 data|array| - |Data for histogram
+clip|boolean|true|enable dragging
+clipclick|boolean|true|enable doubleclick to scale Y axis
 block|boolean|false|Locks slider and makes it inactive
 grid|boolean|true|Enables grid of values.
 gridNum|number|4|Number of grid units.
