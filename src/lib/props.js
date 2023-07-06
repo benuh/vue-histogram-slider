@@ -13,6 +13,10 @@ export default {
     type: Boolean,
     default: true
   },
+  clipclick: {
+    type: Boolean,
+    default: true
+  },
   block: {
     type: Boolean,
     default: false

@@ -99,7 +99,7 @@ export default {
       .attr('width', width)
       .attr('height', this.barHeight)
       .on('dblclick', () => {
-        if (this.clip) {
+        if (this.clipclick) {
           x.domain([min, max])
           updateHistogram([min, max])
           const pos = { from: min, to: max }
